@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.wrapper {
+
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+header {
+
+	width: 100%;
+	height: 100px;
+	background: #8B3F29;
+}
+
+
+
+.logo{
+
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+.slider  {
+	width: 1200px;
+	height: 400px;
+	background: #4ac7a2;
+}
+
+
+.lema {
+	position: absolute;
+	top: 300px;
+	right: 100px;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+
+
+.book {
+  animation: stack .3s linear forwards;
+  height: 170px;
+  position: relative;
+  opacity: 0;
+  top: 100px;
+  
+ 
+  
+
+}
+
+.book:nth-of-type(1) {
+  animation-delay: 4s;
+  width: 200px;
+}
+
+.book:nth-of-type(2) {
+  animation-delay: 3s;
+  width: -16px;
+  height:100px;
+  
+ }
+
+
+
+
+
+@keyframes stack {
+
+  100% {
+      margin-left: 1em;
+      opacity: 1;
+    }
+  
+}
+
+.block-about-us{
+	height: 400px;
+	width: 1200px;
+	margin: 20px 0 20px 0;
+	background-color: #d7d2b5;
+	
+}
+
+.about-us {
+	width: 500px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+	font-size: 14px;
+	color:  #8B3F29;
+
+}
+
+ video {
+	float: right;
+	margin:67px;
+}
+
+.block-gallery {
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.block-gallery h2 {
+
+	text-align: center;
+	color: #4ac7a2;
+	font-size: 40px;
+
+}
+
+.gallery {
+
+	background: #fff;
+  max-width: 800px;
+  padding: 20px;
+  
+}
+
+
+
+.gallery ul li {
+list-style:none; 
+color: #8B3F29;
+}
+
+.gallery ul li.activenav {
+  color: white;
+}
+
+.gallery ul li img {
+  max-width: 100%;
+}
+
+.gallery .navi li {
+  display: inline-block; 
+  margin-right: 5px;  
+  padding-right: 5px; 
+  cursor:pointer;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color:  #4ac7a2; 
+}
+
+footer {
+	background-color: black;
+ 	height: 450px;
+ 	width: 100%;
+ 	color: white;
+
+}
+
+
+.contact {
+	width: 500px;
+	padding: 50px;
+	float: left;
+	margin-right: 280px;
+}
+
+
+
+.logo-footer {
+	float: left;
+	width: 400px;
+	height: 400px;
+	color: white;
+}
